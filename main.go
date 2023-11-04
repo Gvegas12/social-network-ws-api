@@ -62,6 +62,7 @@ func (s *Server) broadcast(b []byte) {
 func main() {
 	server := NewServer()
 
+	fmt.Println("server started")
 	http.Handle("/ws", websocket.Handler(server.handleWS))
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":8080", nil)
 }
