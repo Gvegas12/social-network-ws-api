@@ -4,4 +4,4 @@ COPY . .
 RUN ["go", "mod", "tidy"]
 RUN ["make"]
 EXPOSE 8080
-CMD ["./apiserver"]
+CMD ["./bin/apiserver"]

@@ -5,4 +5,7 @@ build:
 start:
 	./bin/apiserver.exe
 
+dcb:
+	docker build ./ --tag social-network-ws-api
+
 .DEFAULT_GOAL := build
