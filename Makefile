@@ -5,6 +5,9 @@ build:
 start:
 	./bin/apiserver.exe
 
+dev:
+	go run ./cmd/apiserver
+
 dcb:
 	docker build ./ --tag social-network-ws-api
 
