@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
-	"github.com/Gvegas12/social-network-ws-api/apiserver"
+	"github.com/Gvegas12/social-network-ws-api/internal/app/apiserver"
 )
 
 var (
